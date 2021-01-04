@@ -33,6 +33,7 @@ body {
   min-height: 200px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
   border-radius: 10px;
   font-size: 18px;
   color: white;
@@ -80,6 +81,7 @@ body {
 .header h2 {
   text-align: center;
   letter-spacing: 2px;
+  color: rgb(58, 59, 58);
 }
 
 .rocket-icon {
