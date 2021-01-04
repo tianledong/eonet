@@ -62,28 +62,35 @@ body {
   transition: linear 0.1s;
 }
 .btn:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .header {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    align-items: center;
-    justify-items: center;
-    background-color: rgba(148, 133, 133, 0.2);
-    backdrop-filter: blur(8px);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(148, 133, 133, 0.2);
+  backdrop-filter: blur(8px);
 }
 
 .header h2 {
-    text-align: center;
-    letter-spacing: 2px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .rocket-icon {
-    font-size: 2rem;
-    position: relative;
-    top: 4px;
+  font-size: 2rem;
+  position: relative;
+  top: 4px;
+}
+
+@media (max-width: 866px) {
+  .location-info {
+    top: 150px;
+    right: 38px;
+  }
 }
